@@ -128,34 +128,33 @@
 }
 .about .about-content .text-1 {
   position: relative;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500px;
   margin-bottom: 60px;
   padding-bottom: 20px;
 }
-.about .about-content .text-1::before {
-  position: relative;
-  content: "";
-  bottom: 0px;
-  left: 50%;
-  width: 180px;
-  height: 3px;
-  background: #fff;
-  transform: translateX(-50%);
-}
-.about .about-content .text-1::after {
-  position: absolute;
-  content: "who i am";
-  bottom: -10px;
-  left: 50%;
-  font-size: 20px;
-  color:#fff;
-  padding: 5px;
-  background: #fff;
-  transform: translateX(-50%);
-}
+
 .about .about-content .text-2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.about .about-content .text-3 {
   font-size: 30px;
+}
+.about .about-content a {
+  display: inline-block;
+  background: rgb(143, 2, 2);
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(143, 2, 2);
+  transition: all 0.3s ease;
+}
+.about .about-content a:hover {
+  color: red;
+  background: none;
 }
 /* responsive media query */
 
