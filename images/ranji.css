@@ -133,11 +133,25 @@
   margin-bottom: 60px;
   padding-bottom: 20px;
 }
-
-.about .about-content .text-2 {
-  font-size: 40px;
-  padding-bottom: 30px;
+.intro {
+  display: flex;
+  position: absolute;
+  left: 5%;
+  
 }
+.typing {
+  color: red;
+  margin-left: 10px;
+  position: relative;
+}
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  border: 2px solid red;
+}
+
 .about .about-content .text-3 {
   font-size: 30px;
 }
